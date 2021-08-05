@@ -1,25 +1,39 @@
 body {
     background:#ff000080;
+    margin: 40px;
+    
   }
 
   h1,
   h2 {
     color: white;
-    font-family: Georgia;
+    font-family: Helvetica;
     font-size: 62px;
     text-align: center;
   } 
 
   text,
-li {
+li,
+ul {
     text-align: center;
-    border: 1.2px solid yellow;
-  }
+}
 
-  img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
+
+ .type1 {
+   width: 88%;
+   display: block;
+   margin: 0px auto;
+ }
+
+ .type2 {
+  width: 68%;
+  display: block;
+  margin: 0px auto;
+
+ }
+
+ img{
+  border: 3px solid grey
+ }
+
 
